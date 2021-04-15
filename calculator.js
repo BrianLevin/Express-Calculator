@@ -4,6 +4,9 @@ const bodyParser =  require("body-parser");
 
 const app = express();
 
+app.use(bodyParser.urlencoded)
+
+
 app.get("/", function(req,res){
     res.sendFile(__dirname + "/index.html");
 })
