@@ -19,8 +19,12 @@ app.post ("/", function (req,res){
 
     var result=  num1 + num2;
 
-res.send("Th e result of the calculation is: " + result);
+res.send("The result of the calculation is: " + result);
 });
+
+app.get("/bmicalculator", function(req,res){
+    res.sendFile(__dirname + "/bmicalculator.html")
+})
 
 app.listen(3000, function(){
 console.log("Server is running on port 3000!");
