@@ -9,7 +9,7 @@ A  simple node and express based application  that allows the user to calculate 
  
  This is the home screen:
  
- ![Home Screenshot](images/home.png)
+ ![Home Screenshot](images/numbers.png)
  
  Two number are then added:
  
